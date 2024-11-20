@@ -1,0 +1,49 @@
+
+
+ .header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ .header ul {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+ /* justify-content: flex-end; */
+}
+
+ .content-1 {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+ .heart-photo {
+  width: 600px;
+  height: 200px;
+}
+
+ .content-1 .right p {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+ h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.imgs {
+ display: flex;
+ justify-content: center;
+ gap: 25px;
+}
+
+img {
+  box-sizing: border-box;
+  height: 100px;
+  width 100px;
+}
